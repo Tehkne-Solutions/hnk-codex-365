@@ -7,9 +7,9 @@ codex:
   status: active
 
 progress:
-  written: 11
-  reviewed: 11
-  canon_in_repo: 11
+  written: 12
+  reviewed: 12
+  canon_in_repo: 12
 
 migration:
   status: complete
@@ -21,18 +21,18 @@ current:
   chapter_name: Kether
   world: Atziluth
   cycle: Sitael
-  last_written_day: 11
-  last_canon_day: 11
-  next_day: 12
-  next_topic: "Trataka Primal (A Vela de Bardon)"
+  last_written_day: 12
+  last_canon_day: 12
+  next_day: 13
+  next_topic: "O Triturador de Números"
 
 chapters:
   - id: 1
     name: Kether
     range: "1-36"
     status: active
-    written: 11
-    canon_in_repo: 11
+    written: 12
+    canon_in_repo: 12
   - id: 2
     name: Chokmah
     range: "37-73"
