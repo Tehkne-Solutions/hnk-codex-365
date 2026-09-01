@@ -10,9 +10,9 @@ codex:
   status: active
 
 progress:
-  written: 26
-  reviewed: 26
-  canon_in_repo: 26
+  written: 27
+  reviewed: 27
+  canon_in_repo: 27
 
 migration:
   status: complete
@@ -24,18 +24,18 @@ current:
   chapter_name: Kether
   world: Atziluth
   cycle: Lelahel
-  last_written_day: 26
-  last_canon_day: 26
-  next_day: 27
-  next_topic: "A Pérola Azul (Sinal Astral)"
+  last_written_day: 27
+  last_canon_day: 27
+  next_day: 28
+  next_topic: "O Gneo Geo Astral"
 
 chapters:
   - id: 1
     name: Kether
     range: "1-36"
     status: active
-    written: 26
-    canon_in_repo: 26
+    written: 27
+    canon_in_repo: 27
   - id: 2
     name: Chokmah
     range: "37-73"
