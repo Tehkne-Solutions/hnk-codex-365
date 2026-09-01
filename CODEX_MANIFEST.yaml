@@ -10,9 +10,9 @@ codex:
   status: active
 
 progress:
-  written: 35
-  reviewed: 35
-  canon_in_repo: 35
+  written: 36
+  reviewed: 36
+  canon_in_repo: 36
 
 migration:
   status: complete
@@ -20,26 +20,28 @@ migration:
   note: "Dias 1-7 normalizados no template canônico e gravados em canon/."
 
 current:
-  chapter: 1
-  chapter_name: Kether
+  chapter: 2
+  chapter_name: Chokmah
   world: Atziluth
-  cycle: Portal de Transmutação
-  last_written_day: 35
-  last_canon_day: 35
-  next_day: 36
-  next_topic: "O Portal de Transmutação de Kether para Chokmah"
+  cycle: Cahetel
+  level: 2
+  level_title: Iniciado
+  last_written_day: 36
+  last_canon_day: 36
+  next_day: 37
+  next_topic: "A Receptividade de Chokmah"
 
 chapters:
   - id: 1
     name: Kether
     range: "1-36"
-    status: active
-    written: 35
-    canon_in_repo: 35
+    status: complete
+    written: 36
+    canon_in_repo: 36
   - id: 2
     name: Chokmah
     range: "37-73"
-    status: locked
+    status: active
     written: 0
     canon_in_repo: 0
   - id: 3
