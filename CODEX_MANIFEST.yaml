@@ -10,9 +10,9 @@ codex:
   status: active
 
 progress:
-  written: 31
-  reviewed: 31
-  canon_in_repo: 31
+  written: 32
+  reviewed: 32
+  canon_in_repo: 32
 
 migration:
   status: complete
@@ -24,18 +24,18 @@ current:
   chapter_name: Kether
   world: Atziluth
   cycle: Achaiah
-  last_written_day: 31
-  last_canon_day: 31
-  next_day: 32
-  next_topic: "O Elevador de Esdaile"
+  last_written_day: 32
+  last_canon_day: 32
+  next_day: 33
+  next_topic: "O Transe de Catatonia Corporal"
 
 chapters:
   - id: 1
     name: Kether
     range: "1-36"
     status: active
-    written: 31
-    canon_in_repo: 31
+    written: 32
+    canon_in_repo: 32
   - id: 2
     name: Chokmah
     range: "37-73"
