@@ -7,9 +7,9 @@ codex:
   status: active
 
 progress:
-  written: 8
-  reviewed: 8
-  canon_in_repo: 8
+  written: 9
+  reviewed: 9
+  canon_in_repo: 9
 
 migration:
   status: complete
@@ -21,18 +21,18 @@ current:
   chapter_name: Kether
   world: Atziluth
   cycle: Jeliel
-  last_written_day: 8
-  last_canon_day: 8
-  next_day: 9
-  next_topic: "O Diário de Sonhos Psiconáutico"
+  last_written_day: 9
+  last_canon_day: 9
+  next_day: 10
+  next_topic: "Ancoragem da Calmaria"
 
 chapters:
   - id: 1
     name: Kether
     range: "1-36"
     status: active
-    written: 8
-    canon_in_repo: 8
+    written: 9
+    canon_in_repo: 9
   - id: 2
     name: Chokmah
     range: "37-73"
