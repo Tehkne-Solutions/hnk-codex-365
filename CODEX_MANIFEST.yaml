@@ -7,9 +7,9 @@ codex:
   status: active
 
 progress:
-  written: 15
-  reviewed: 15
-  canon_in_repo: 15
+  written: 16
+  reviewed: 16
+  canon_in_repo: 16
 
 migration:
   status: complete
@@ -21,18 +21,18 @@ current:
   chapter_name: Kether
   world: Atziluth
   cycle: Elemiah
-  last_written_day: 15
-  last_canon_day: 15
-  next_day: 16
-  next_topic: "A Ruína do Controle Verbal"
+  last_written_day: 16
+  last_canon_day: 16
+  next_day: 17
+  next_topic: "Ativação da Glossolália"
 
 chapters:
   - id: 1
     name: Kether
     range: "1-36"
     status: active
-    written: 15
-    canon_in_repo: 15
+    written: 16
+    canon_in_repo: 16
   - id: 2
     name: Chokmah
     range: "37-73"
