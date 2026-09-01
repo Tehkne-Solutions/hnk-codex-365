@@ -7,9 +7,9 @@ codex:
   status: active
 
 progress:
-  written: 20
-  reviewed: 20
-  canon_in_repo: 20
+  written: 21
+  reviewed: 21
+  canon_in_repo: 21
 
 migration:
   status: complete
@@ -21,18 +21,18 @@ current:
   chapter_name: Kether
   world: Atziluth
   cycle: Mahasiah
-  last_written_day: 20
-  last_canon_day: 20
-  next_day: 21
-  next_topic: "A Linha de Prana (Ki)"
+  last_written_day: 21
+  last_canon_day: 21
+  next_day: 22
+  next_topic: "Sintonização do Dai Koo Myo"
 
 chapters:
   - id: 1
     name: Kether
     range: "1-36"
     status: active
-    written: 20
-    canon_in_repo: 20
+    written: 21
+    canon_in_repo: 21
   - id: 2
     name: Chokmah
     range: "37-73"
