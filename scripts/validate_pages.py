@@ -30,6 +30,7 @@ EXPECTED = {
 
 def count_words(text: str) -> int:
     text = re.sub(r"<!--.*?-->", " ", text, flags=re.DOTALL)
+    text = re.sub(r"\[(?:\d+\s*(?:,\s*\d+\s*)*)\]", " ", text)
     text = re.sub(r"[`*_#>]", " ", text)
     return len(WORD_RE.findall(text))
 
