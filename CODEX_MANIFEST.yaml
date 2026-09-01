@@ -10,9 +10,9 @@ codex:
   status: active
 
 progress:
-  written: 33
-  reviewed: 33
-  canon_in_repo: 33
+  written: 34
+  reviewed: 34
+  canon_in_repo: 34
 
 migration:
   status: complete
@@ -24,18 +24,18 @@ current:
   chapter_name: Kether
   world: Atziluth
   cycle: Achaiah
-  last_written_day: 33
-  last_canon_day: 33
-  next_day: 34
-  next_topic: "Instalação do Signo-Sinal Final"
+  last_written_day: 34
+  last_canon_day: 34
+  next_day: 35
+  next_topic: "O Ritual do Pentagrama Primal"
 
 chapters:
   - id: 1
     name: Kether
     range: "1-36"
     status: active
-    written: 33
-    canon_in_repo: 33
+    written: 34
+    canon_in_repo: 34
   - id: 2
     name: Chokmah
     range: "37-73"
