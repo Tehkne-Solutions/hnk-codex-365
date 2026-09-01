@@ -4,6 +4,9 @@ codex:
   source_of_truth: canon
   total_days: 365
   editorial_standard: "137/72/26 x 3 = 705"
+  epistemic_protocol: HNK-EP-1.1
+  epistemic_protocol_path: "canon/HNK_PROTOCOLO_EPISTEMICO.md"
+  epistemic_scope: "retroactive-all-canon"
   status: active
 
 progress:
