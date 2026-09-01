@@ -7,9 +7,9 @@ codex:
   status: active
 
 progress:
-  written: 17
-  reviewed: 17
-  canon_in_repo: 17
+  written: 18
+  reviewed: 18
+  canon_in_repo: 18
 
 migration:
   status: complete
@@ -21,18 +21,18 @@ current:
   chapter_name: Kether
   world: Atziluth
   cycle: Elemiah
-  last_written_day: 17
-  last_canon_day: 17
-  next_day: 18
-  next_topic: "O Som Extático do Corpo"
+  last_written_day: 18
+  last_canon_day: 18
+  next_day: 19
+  next_topic: "Análise Vocal no App"
 
 chapters:
   - id: 1
     name: Kether
     range: "1-36"
     status: active
-    written: 17
-    canon_in_repo: 17
+    written: 18
+    canon_in_repo: 18
   - id: 2
     name: Chokmah
     range: "37-73"
