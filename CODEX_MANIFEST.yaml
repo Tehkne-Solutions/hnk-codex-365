@@ -7,9 +7,9 @@ codex:
   status: active
 
 progress:
-  written: 12
-  reviewed: 12
-  canon_in_repo: 12
+  written: 13
+  reviewed: 13
+  canon_in_repo: 13
 
 migration:
   status: complete
@@ -21,18 +21,18 @@ current:
   chapter_name: Kether
   world: Atziluth
   cycle: Sitael
-  last_written_day: 12
-  last_canon_day: 12
-  next_day: 13
-  next_topic: "O Triturador de Números"
+  last_written_day: 13
+  last_canon_day: 13
+  next_day: 14
+  next_topic: "Concentração Unidirecional de Pensamento"
 
 chapters:
   - id: 1
     name: Kether
     range: "1-36"
     status: active
-    written: 12
-    canon_in_repo: 12
+    written: 13
+    canon_in_repo: 13
   - id: 2
     name: Chokmah
     range: "37-73"
