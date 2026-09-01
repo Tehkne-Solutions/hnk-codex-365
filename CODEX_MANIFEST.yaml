@@ -7,9 +7,9 @@ codex:
   status: active
 
 progress:
-  written: 14
-  reviewed: 14
-  canon_in_repo: 14
+  written: 15
+  reviewed: 15
+  canon_in_repo: 15
 
 migration:
   status: complete
@@ -20,19 +20,19 @@ current:
   chapter: 1
   chapter_name: Kether
   world: Atziluth
-  cycle: Sitael
-  last_written_day: 14
-  last_canon_day: 14
-  next_day: 15
-  next_topic: "O Banimento pelo Fogo"
+  cycle: Elemiah
+  last_written_day: 15
+  last_canon_day: 15
+  next_day: 16
+  next_topic: "A Ruína do Controle Verbal"
 
 chapters:
   - id: 1
     name: Kether
     range: "1-36"
     status: active
-    written: 14
-    canon_in_repo: 14
+    written: 15
+    canon_in_repo: 15
   - id: 2
     name: Chokmah
     range: "37-73"
