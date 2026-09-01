@@ -55,8 +55,16 @@ def validate_file(path: Path):
 
     day = frontmatter_value(text, "day")
     match_day = re.search(r"dia-(\d{3})\.md$", path.name)
-    if match_day and day and int(match_day.group(1)) != int(day):
-        errors.append(f"day={day} não corresponde ao arquivo {path.name}")
+    if day is None:
+        errors.append("frontmatter obrigatório ausente: day")
+    elif match_day:
+        try:
+            parsed_day = int(day)
+        except ValueError:
+            errors.append(f"day deve ser inteiro (atual: {day!r})")
+        else:
+            if int(match_day.group(1)) != parsed_day:
+                errors.append(f"day={day} não corresponde ao arquivo {path.name}")
 
     found = {}
     pos = 0
@@ -70,7 +78,10 @@ def validate_file(path: Path):
             errors.append(f"bloco {block_id}: marcador END ausente")
             break
         body = text[match.end():end_pos]
-        found[block_id] = (declared_target, count_words(body))
+        if block_id in found:
+            errors.append(f"bloco duplicado: {block_id}")
+        else:
+            found[block_id] = (declared_target, count_words(body))
         pos = end_pos + len(END)
 
     missing = sorted(set(EXPECTED) - set(found))
