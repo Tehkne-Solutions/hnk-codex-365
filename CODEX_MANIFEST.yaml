@@ -7,9 +7,9 @@ codex:
   status: active
 
 progress:
-  written: 7
-  reviewed: 7
-  canon_in_repo: 7
+  written: 8
+  reviewed: 8
+  canon_in_repo: 8
 
 migration:
   status: complete
@@ -21,18 +21,18 @@ current:
   chapter_name: Kether
   world: Atziluth
   cycle: Jeliel
-  last_written_day: 7
-  last_canon_day: 7
-  next_day: 8
-  next_topic: "Dave Elman II — Aprofundamento Mental"
+  last_written_day: 8
+  last_canon_day: 8
+  next_day: 9
+  next_topic: "O Diário de Sonhos Psiconáutico"
 
 chapters:
   - id: 1
     name: Kether
     range: "1-36"
     status: active
-    written: 7
-    canon_in_repo: 7
+    written: 8
+    canon_in_repo: 8
   - id: 2
     name: Chokmah
     range: "37-73"
