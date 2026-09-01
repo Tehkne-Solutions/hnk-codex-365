@@ -1,0 +1,54 @@
+name: Codex Validate & Build
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'canon/**'
+      - 'templates/**'
+      - 'scripts/**'
+      - 'CODEX_MANIFEST.yaml'
+      - '.github/workflows/codex-build.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'canon/**'
+      - 'templates/**'
+      - 'scripts/**'
+      - 'CODEX_MANIFEST.yaml'
+      - '.github/workflows/codex-build.yml'
+  workflow_dispatch:
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate canonical pages
+        run: python scripts/validate_pages.py
+
+      - name: Build master Markdown
+        run: python scripts/build_master.py
+
+      - name: Install Pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Build DOCX
+        run: pandoc build/CODEX_MASTER.md -o build/CODEX_MASTER.docx
+
+      - name: Upload master manuscript
+        uses: actions/upload-artifact@v4
+        with:
+          name: hnk-codex-master
+          path: |
+            build/CODEX_MASTER.md
+            build/CODEX_MASTER.docx
+          if-no-files-found: error
