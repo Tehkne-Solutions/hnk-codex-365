@@ -1,0 +1,91 @@
+codex:
+  id: hnk-codex-365
+  title: HNK Codex Interativo 365
+  source_of_truth: canon
+  total_days: 365
+  editorial_standard: "137/72/26 x 3 = 705"
+  status: active
+
+progress:
+  completed: 7
+  reviewed: 7
+  canon: 7
+
+current:
+  chapter: 1
+  chapter_name: Kether
+  world: Atziluth
+  cycle: Jeliel
+  last_canon_day: 7
+  next_day: 8
+  next_topic: "Dave Elman II — Aprofundamento Mental"
+
+chapters:
+  - id: 1
+    name: Kether
+    range: "1-36"
+    status: active
+    completed: 7
+  - id: 2
+    name: Chokmah
+    range: "37-73"
+    status: locked
+    completed: 0
+  - id: 3
+    name: Binah
+    range: "74-109"
+    status: locked
+    completed: 0
+  - id: 4
+    name: Chesed
+    range: "110-146"
+    status: locked
+    completed: 0
+  - id: 5
+    name: Geburah
+    range: "147-182"
+    status: locked
+    completed: 0
+  - id: 6
+    name: Tiphereth
+    range: "183-219"
+    status: locked
+    completed: 0
+  - id: 7
+    name: Netzach
+    range: "220-255"
+    status: locked
+    completed: 0
+  - id: 8
+    name: Hod
+    range: "256-292"
+    status: locked
+    completed: 0
+  - id: 9
+    name: Yesod
+    range: "293-328"
+    status: locked
+    completed: 0
+  - id: 10
+    name: Malkuth
+    range: "329-365"
+    status: locked
+    completed: 0
+
+states:
+  allowed:
+    - draft
+    - reviewed
+    - canon
+
+attributes:
+  canonical:
+    - HIP
+    - VNT
+    - PER
+    - SIN
+    - BIO
+    - INT
+    - DIS
+  derived:
+    - EQU
