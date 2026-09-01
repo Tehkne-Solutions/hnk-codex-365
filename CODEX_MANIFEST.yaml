@@ -10,9 +10,9 @@ codex:
   status: active
 
 progress:
-  written: 24
-  reviewed: 24
-  canon_in_repo: 24
+  written: 25
+  reviewed: 25
+  canon_in_repo: 25
 
 migration:
   status: complete
@@ -23,19 +23,19 @@ current:
   chapter: 1
   chapter_name: Kether
   world: Atziluth
-  cycle: Mahasiah
-  last_written_day: 24
-  last_canon_day: 24
-  next_day: 25
-  next_topic: "O Passe Magnético no Ambiente"
+  cycle: Lelahel
+  last_written_day: 25
+  last_canon_day: 25
+  next_day: 26
+  next_topic: "O Terceiro Olho (Brodmann 10)"
 
 chapters:
   - id: 1
     name: Kether
     range: "1-36"
     status: active
-    written: 24
-    canon_in_repo: 24
+    written: 25
+    canon_in_repo: 25
   - id: 2
     name: Chokmah
     range: "37-73"
