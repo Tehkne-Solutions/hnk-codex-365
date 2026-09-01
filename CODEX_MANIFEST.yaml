@@ -10,9 +10,9 @@ codex:
   status: active
 
 progress:
-  written: 28
-  reviewed: 28
-  canon_in_repo: 28
+  written: 29
+  reviewed: 29
+  canon_in_repo: 29
 
 migration:
   status: complete
@@ -24,18 +24,18 @@ current:
   chapter_name: Kether
   world: Atziluth
   cycle: Lelahel
-  last_written_day: 28
-  last_canon_day: 28
-  next_day: 29
-  next_topic: "Boneco Voodoo de Auto-Purificação"
+  last_written_day: 29
+  last_canon_day: 29
+  next_day: 30
+  next_topic: "Gnose por ASMR"
 
 chapters:
   - id: 1
     name: Kether
     range: "1-36"
     status: active
-    written: 28
-    canon_in_repo: 28
+    written: 29
+    canon_in_repo: 29
   - id: 2
     name: Chokmah
     range: "37-73"
