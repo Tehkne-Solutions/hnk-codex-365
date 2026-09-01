@@ -7,9 +7,9 @@ codex:
   status: active
 
 progress:
-  written: 19
-  reviewed: 19
-  canon_in_repo: 19
+  written: 20
+  reviewed: 20
+  canon_in_repo: 20
 
 migration:
   status: complete
@@ -20,19 +20,19 @@ current:
   chapter: 1
   chapter_name: Kether
   world: Atziluth
-  cycle: Elemiah
-  last_written_day: 19
-  last_canon_day: 19
-  next_day: 20
-  next_topic: "Esvaziamento Pós-Êxtase"
+  cycle: Mahasiah
+  last_written_day: 20
+  last_canon_day: 20
+  next_day: 21
+  next_topic: "A Linha de Prana (Ki)"
 
 chapters:
   - id: 1
     name: Kether
     range: "1-36"
     status: active
-    written: 19
-    canon_in_repo: 19
+    written: 20
+    canon_in_repo: 20
   - id: 2
     name: Chokmah
     range: "37-73"
