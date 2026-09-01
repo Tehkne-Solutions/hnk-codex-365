@@ -9,12 +9,12 @@ codex:
 progress:
   written: 7
   reviewed: 7
-  canon_in_repo: 0
+  canon_in_repo: 7
 
 migration:
-  status: pending
+  status: complete
   source_days: "1-7"
-  note: "Dias existentes devem ser normalizados no template canônico antes de entrar em canon/."
+  note: "Dias 1-7 normalizados no template canônico e gravados em canon/."
 
 current:
   chapter: 1
@@ -22,6 +22,7 @@ current:
   world: Atziluth
   cycle: Jeliel
   last_written_day: 7
+  last_canon_day: 7
   next_day: 8
   next_topic: "Dave Elman II — Aprofundamento Mental"
 
@@ -31,7 +32,7 @@ chapters:
     range: "1-36"
     status: active
     written: 7
-    canon_in_repo: 0
+    canon_in_repo: 7
   - id: 2
     name: Chokmah
     range: "37-73"
