@@ -1,0 +1,31 @@
+{
+  "day": 38,
+  "version": "1.0.0-review.1",
+  "state": "reviewed",
+  "reviewers": {
+    "editorial": "HNK Codex Editorial Agent",
+    "canonical": ""
+  },
+  "epistemic_ack": true,
+  "source_basis": [
+    "capitulo_2_plano_escrita.md — Ciclo I, Dia 38",
+    "docs/EDITORIAL_PROTOCOL.md",
+    "canon/HNK_PROTOCOLO_EPISTEMICO.md",
+    "templates/day-template.md"
+  ],
+  "gates": {
+    "nine_blocks": true,
+    "exact_137_72_26": true,
+    "total_705": true,
+    "frontmatter_complete": true,
+    "hnk_ep_1_1": true,
+    "editorial_review": true,
+    "canonical_approval": false
+  },
+  "history": [
+    {"event": "generated_from_chapter_2_plan", "state": "draft"},
+    {"event": "validated_705", "state": "draft"},
+    {"event": "editorial_review_completed", "state": "reviewed"}
+  ],
+  "notes": "Candidate canonical page for Dia 038. Canonical approval remains pending until the publication PR is reviewed."
+}
