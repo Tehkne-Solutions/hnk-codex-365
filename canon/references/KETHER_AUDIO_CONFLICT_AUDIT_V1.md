@@ -7,9 +7,13 @@
 
 > Purpose: distinguish the audio vocabularies already present in Kether before any production preset is approved. This audit does not declare physiological effects or silently reinterpret ambiguous numbers.
 
-## 1. Vocabulary that must remain distinct
+## 1. Source-backed global audio architecture
 
-The HNK audio engine and editorial records must represent at least these fields separately:
+The Chapter 0 transmedia manual defines the HNK app as using a native **Solfeggio player** with **dynamic binaural frequencies in the Theta category** during the daily practice flow.
+
+This supports a multi-layer audio engine at the conceptual level. It does **not** by itself define one universal carrier, one exact binaural difference or one Solfeggio tone for every Day.
+
+The HNK audio engine and editorial records must therefore represent at least these fields separately:
 
 - **carrier/base frequency** — continuous carrier/reference frequency when explicitly specified;
 - **binaural beat/difference** — left/right difference when explicitly specified;
@@ -24,54 +28,44 @@ A single field called `frequency` is insufficient for Kether.
 
 ### Day 001 — Vehuiah
 
-Canonical content contains both:
+The original Day 001 page and current canonical content contain:
 
 - Ordália: **Solfeggio 528 Hz**;
 - QR/player copy: **Theta / 432 Hz base**.
 
-**State:** `MULTILAYER_OR_CONFLICT_PENDING`.
+**State:** `MULTILAYER_MAPPING_PENDING`.
 
-The source does not explicitly say whether 528 is layered over a 432 carrier, whether these are alternate presets, or how Theta is technically produced.
+Because Chapter 0 independently defines a Solfeggio + dynamic binaural Theta player, the existence of multiple audio layers is source-supported. What remains undefined is the exact technical mapping: whether 432 is the binaural carrier center, how Theta is numerically generated, and how the 528 ritual tone is mixed.
 
 ### Day 002 — Vehuiah
 
-Canonical content contains:
+The original Day 002 page and current canonical content contain:
 
 - a binaural/audio instruction described as **Solfeggio 528 Hz**;
 - QR/player copy using **Theta / 432 Hz base**.
 
-**State:** `MULTILAYER_OR_CONFLICT_PENDING`.
+**State:** `MULTILAYER_MAPPING_PENDING`.
 
 ### Day 004 — Vehuiah
 
-Canonical content refers to:
+Canonical/original page material refers to:
 
 - **binaural gnosis Theta**;
 - QR/player copy using **Theta / 432 Hz base**.
 
-No explicit binaural difference value is stated in the cited copy.
+No explicit binaural difference value is stated.
 
 **State:** `THETA_BEAT_UNDEFINED`.
 
 ### Day 006 — Jeliel
 
-Canonical content contains:
+**State:** `SOURCE_CORRECTION_RESOLVED`.
 
-- Ordália: **52 Hz** Solfeggio/relaxation reference;
-- QR/player copy: **Theta / 432 Hz base**.
+The Chapter 1 plan defines Day 006 as pure listening meditation and does not define a numeric frequency. The old canonical expansion introduced `52 Hz` while the QR simultaneously used `Theta / 432 Hz base`.
 
-**State:** `CRITICAL_NUMERIC_REVIEW_REQUIRED`.
+Kether Canon Freeze PR #22 removed the unsupported `52 Hz` and changed the Day 006 canonical Ordália/QR to a silent timer + listening record, preserving 26 words and the 705-word matrix.
 
-The audit must not assume that `52 Hz` means:
-
-- 5.2 Hz;
-- 528 Hz typo;
-- carrier;
-- binaural beat;
-- Solfeggio layer;
-- sub-bass/isochronic layer.
-
-Only an explicit canonical decision may classify or correct it.
+The global HNK audio architecture may later offer an approved optional/cycle preset for this Day, but no specific Day 006 frequency may be inferred from the removed `52 Hz` value.
 
 ### Day 030 — Lelahel
 
@@ -108,20 +102,21 @@ Kether also contains audio behaviors that should not be reduced to Hz numbers:
 
 These require separate product contracts from the synthesis/player preset.
 
-## 4. Candidate layered model — NOT CANON
+## 4. Current source-supported interpretation boundary
 
-A product hypothesis already discussed in the project is:
+The project now supports the following architecture without claiming more than the sources establish:
 
-- `432 Hz` = possible carrier/base where explicitly written;
-- `528 Hz` = possible ritual/Solfeggio layer where explicitly written;
-- `Theta` = target-state/binaural descriptor requiring a separate explicit beat value;
-- `52 Hz` = unresolved.
+- **Solfeggio layer exists** as a category in the transmedia system;
+- **dynamic binaural Theta exists** as a category in the transmedia system;
+- **432 Hz base** is explicitly printed in early QR copy;
+- **528 Hz** is explicitly printed as a ritual/Solfeggio value on Days 001/002;
+- the exact mathematical/mixing relationship among those values remains a **preset-level canonical decision**.
 
-This is **not approved canon**. It exists only as a reconciliation candidate to be tested against every affected Day.
+Therefore the previous “432 carrier + 528 ritual layer + Theta target” model is now treated as a **strong implementation candidate consistent with the source**, but is not a published preset until the remaining numeric mapping is approved.
 
 ## 5. Preset schema requirements
 
-Before Kether audio assets are published, each preset should be able to declare independently:
+Before Kether audio assets are published, each preset must be able to declare independently:
 
 ```yaml
 id: string
@@ -157,10 +152,10 @@ The absence of a value must remain `null`, never silently inferred.
 
 ## 7. Freeze decisions still required
 
-- [ ] classify Day 001 `528 / 432 / Theta` relationship;
-- [ ] classify Day 002 relationship;
-- [ ] define technical meaning of Day 004 `Theta`;
-- [ ] explicitly resolve Day 006 `52 Hz`;
+- [ ] define technical mapping for Day 001 `528 / 432 / Theta`;
+- [ ] define technical mapping for Day 002;
+- [ ] define numeric behavior behind Day 004 `Theta`;
+- [x] resolve Day 006 `52 Hz` — removed because unsupported by the Day plan;
 - [ ] audit remaining Kether audio wording against this taxonomy;
 - [ ] approve Day 030 active/control assets;
 - [ ] define Portal 036 transition preset;
@@ -170,4 +165,4 @@ The absence of a value must remain `null`, never silently inferred.
 
 ## 8. Audit provenance note
 
-This baseline was cross-checked against the currently synchronized Kether dataset in the official `codex-hnk-app` Supabase project. That projection predates the final Kether Canon Freeze and therefore serves as a **discovery/audit source**, not the final freeze checksum. After the canonical freeze commit is produced, Days 001–036 must be resynchronized and this audit must be verified against that exact SHA.
+This audit was cross-checked against the synchronized Kether dataset in the official `codex-hnk-app` Supabase project and against accessible original per-page/Chapter 0 project files. The current Supabase projection predates the final Kether Canon Freeze and therefore remains a discovery/audit source rather than the final freeze checksum. After the canonical freeze commit is produced, Days 001–036 must be resynchronized and this audit verified against that exact SHA.
