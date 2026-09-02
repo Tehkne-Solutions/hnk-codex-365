@@ -10,9 +10,9 @@ codex:
   status: active
 
 progress:
-  written: 38
-  reviewed: 38
-  canon_in_repo: 38
+  written: 39
+  reviewed: 39
+  canon_in_repo: 39
 
 migration:
   status: complete
@@ -26,10 +26,10 @@ current:
   cycle: Cahetel
   level: 2
   level_title: Iniciado
-  last_written_day: 38
-  last_canon_day: 38
-  next_day: 39
-  next_topic: "O Canal Bioenergético Central (Ki)"
+  last_written_day: 39
+  last_canon_day: 39
+  next_day: 40
+  next_topic: "A Auto-Indução Ocular Básica"
 
 chapters:
   - id: 1
@@ -42,8 +42,8 @@ chapters:
     name: Chokmah
     range: "37-73"
     status: active
-    written: 2
-    canon_in_repo: 2
+    written: 3
+    canon_in_repo: 3
   - id: 3
     name: Binah
     range: "74-109"
