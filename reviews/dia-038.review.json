@@ -1,10 +1,10 @@
 {
   "day": 38,
-  "version": "1.0.0-review.1",
-  "state": "reviewed",
+  "version": "1.0.0",
+  "state": "canon",
   "reviewers": {
     "editorial": "HNK Codex Editorial Agent",
-    "canonical": ""
+    "canonical": "TW-DVF / project owner approval via conversation"
   },
   "epistemic_ack": true,
   "source_basis": [
@@ -20,12 +20,13 @@
     "frontmatter_complete": true,
     "hnk_ep_1_1": true,
     "editorial_review": true,
-    "canonical_approval": false
+    "canonical_approval": true
   },
   "history": [
     {"event": "generated_from_chapter_2_plan", "state": "draft"},
     {"event": "validated_705", "state": "draft"},
-    {"event": "editorial_review_completed", "state": "reviewed"}
+    {"event": "editorial_review_completed", "state": "reviewed"},
+    {"event": "canonical_owner_approval", "state": "canon"}
   ],
-  "notes": "Candidate canonical page for Dia 038. Canonical approval remains pending until the publication PR is reviewed."
+  "notes": "Dia 038 aprovado canonicamente após validação 705/705, CI bem-sucedido e autorização do proprietário do projeto para seguir a esteira."
 }
