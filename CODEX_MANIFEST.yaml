@@ -10,9 +10,9 @@ codex:
   status: active
 
 progress:
-  written: 36
-  reviewed: 36
-  canon_in_repo: 36
+  written: 37
+  reviewed: 37
+  canon_in_repo: 37
 
 migration:
   status: complete
@@ -26,10 +26,10 @@ current:
   cycle: Cahetel
   level: 2
   level_title: Iniciado
-  last_written_day: 36
-  last_canon_day: 36
-  next_day: 37
-  next_topic: "A Receptividade de Chokmah"
+  last_written_day: 37
+  last_canon_day: 37
+  next_day: 38
+  next_topic: "O Pacing de Pensamentos"
 
 chapters:
   - id: 1
@@ -42,8 +42,8 @@ chapters:
     name: Chokmah
     range: "37-73"
     status: active
-    written: 0
-    canon_in_repo: 0
+    written: 1
+    canon_in_repo: 1
   - id: 3
     name: Binah
     range: "74-109"
