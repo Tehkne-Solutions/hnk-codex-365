@@ -1,0 +1,32 @@
+{
+  "day": 39,
+  "version": "1.0.0",
+  "state": "canon",
+  "reviewers": {
+    "editorial": "HNK Codex Editorial Agent",
+    "canonical": "TW-DVF / project owner approval via conversation"
+  },
+  "epistemic_ack": true,
+  "source_basis": [
+    "capitulo_2_plano_escrita.md — Ciclo I, Dia 39",
+    "docs/EDITORIAL_PROTOCOL.md",
+    "canon/HNK_PROTOCOLO_EPISTEMICO.md",
+    "templates/day-template.md"
+  ],
+  "gates": {
+    "nine_blocks": true,
+    "exact_137_72_26": true,
+    "total_705": true,
+    "frontmatter_complete": true,
+    "hnk_ep_1_1": true,
+    "editorial_review": true,
+    "canonical_approval": true
+  },
+  "history": [
+    {"event": "generated_from_chapter_2_plan", "state": "draft"},
+    {"event": "validated_705", "state": "draft"},
+    {"event": "editorial_review_completed", "state": "reviewed"},
+    {"event": "canonical_owner_approval", "state": "canon"}
+  ],
+  "notes": "Dia 039 aprovado canonicamente após matriz 705/705, CI bem-sucedido e autorização do proprietário para seguir a esteira. As afirmações de bioenergia/telepatia permanecem classificadas como operadores HNK e hipótese operacional, não como fato científico estabelecido."
+}
