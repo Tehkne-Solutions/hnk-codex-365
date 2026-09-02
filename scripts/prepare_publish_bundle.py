@@ -70,7 +70,6 @@ def main():
     review=json.loads(Path(args.review).read_text(encoding="utf-8"))
     day=int(frontmatter_value(md,"day") or 0)
     sephira=frontmatter_value(md,"sephira") or ""
-    title_line=next((x.lstrip("# ").strip() for x in md.splitlines() if x.startswith("# DIA ")),f"Dia {day}")
     errors,total,status=validate(md)
     if errors:
         print("PUBLISH BLOCKED")
@@ -80,8 +79,16 @@ def main():
     if chapter_name.lower()!=sephira.lower():
         print(f"PUBLISH BLOCKED\n - sephira {sephira!r} does not match chapter {chapter_name!r}")
         raise SystemExit(1)
-    slug=slugify(title_line.replace(f"DIA {day:03d}","").strip(" |"))
-    branch=f"codex/day-{day:03d}-{slug[:40] or slugify(sephira)}"
+    review_day=int(review.get("day",0) or 0)
+    review_state=review.get("state")
+    if review_day!=day:
+        print(f"PUBLISH BLOCKED\n - review day {review_day!r} does not match markdown day {day!r}")
+        raise SystemExit(1)
+    if review_state not in ("reviewed","canon"):
+        print(f"PUBLISH BLOCKED\n - review state must be reviewed/canon, got {review_state!r}")
+        raise SystemExit(1)
+    slug=slugify(sephira)
+    branch=f"codex/day-{day:03d}-{slug}"
     canon_path=f"canon/capitulo-{chapter:02d}-{slugify(sephira)}/dia-{day:03d}.md"
     review_path=f"reviews/dia-{day:03d}.review.json"
     bundle={
