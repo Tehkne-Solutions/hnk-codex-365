@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HNK Codex Publish Bundle",
+  "type": "object",
+  "required": ["day", "branch", "canon_path", "review_path", "markdown", "review_record", "pull_request"],
+  "properties": {
+    "day": {"type": "integer", "minimum": 1, "maximum": 365},
+    "branch": {"type": "string"},
+    "canon_path": {"type": "string"},
+    "review_path": {"type": "string"},
+    "markdown": {"type": "string"},
+    "review_record": {"type": "object"},
+    "pull_request": {"type": "object"}
+  }
+}
