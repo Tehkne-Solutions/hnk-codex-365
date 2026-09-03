@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "status": "proposal_not_canon",
+  "scope": "Kether Freeze V1",
+  "assets": [
+    {
+      "id": "hnk.kether.sigil.v1.master",
+      "path": "canon/references/proposals/assets/kether-sigil-v1-proposal.svg",
+      "type": "svg_master_proposal",
+      "sha256": "7792ad999497f502d29c4377d3497c02241421701e5762ed247c5351fb24320a",
+      "provenance": "HNK-original geometric sigil derived from the 3/12/36 Kether structure. Not a recovered historical Kabbalistic or angelic seal.",
+      "canonical_status": "proposal_not_canon"
+    },
+    {
+      "id": "hnk.gneo_geo.v1.master",
+      "path": "canon/references/proposals/assets/gneo-geo-v1-proposal.svg",
+      "type": "svg_master_proposal",
+      "sha256": "2547d18241651980ed1668408b189ecfd1eb28acb400cdf6c1d96e7514d90436",
+      "provenance": "HNK-original geometry derived from the source-backed Gneo Geo functional ontology. Not a recovered historical Bluefluke/Gneo Geo diagram.",
+      "canonical_status": "proposal_not_canon"
+    },
+    {
+      "id": "hnk.audio.kether_chokmah.transition.v1",
+      "path": "scripts/audio/render_kether_chokmah_transition_v1.py",
+      "type": "deterministic_audio_recipe_proposal",
+      "output_master": "kether-chokmah-transition-v1-proposal.wav",
+      "output_sha256": null,
+      "provenance": "HNK-original technical reconciliation proposal using source-backed 432 Hz base, 528 Hz ritual references and Theta label.",
+      "canonical_status": "proposal_not_canon"
+    }
+  ],
+  "publication_rule": "No proposal asset becomes canonical merely by merge. Canonical publication requires owner approval, QA, versioned published status and final checksum where applicable."
+}
