@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+<title id="title">Gneo Geo V1 — HNK proposal</title>
+<desc id="desc">HNK-original proposal: central cockpit, double octagram family, eight clockwise circuit nodes and fixed north orientation.</desc>
+<style>
+  .star{fill:none;stroke:currentColor;stroke-width:7;stroke-linejoin:round}
+  .ring{fill:none;stroke:currentColor;stroke-width:4;stroke-dasharray:12 12}
+  .spoke{stroke:currentColor;stroke-width:4;opacity:.75}
+  .node{fill:#000;stroke:currentColor;stroke-width:7}
+  .center{fill:#000;stroke:currentColor;stroke-width:10}
+  .label{fill:currentColor;font:600 34px sans-serif}
+  .north{fill:currentColor;font:600 26px sans-serif;letter-spacing:4px}
+</style>
+<g id="gneo-geo-v1">
+  <polygon id="inner-square-a" points="600,340 860,600 600,860 340,600" class="star"/>
+  <polygon id="inner-square-b" points="783.85,416.15 783.85,783.85 416.15,783.85 416.15,416.15" class="star"/>
+  <polygon id="outer-square-a" points="756.9,221.21 978.79,756.9 443.1,978.79 221.21,443.1" class="star"/>
+  <polygon id="outer-square-b" points="978.79,443.1 756.9,978.79 221.21,756.9 443.1,221.21" class="star"/>
+  <circle cx="600" cy="600" r="335" class="ring"/>
+  <line id="spoke-1" x1="600" y1="600" x2="600" y2="265" class="spoke"/>
+  <line id="spoke-2" x1="600" y1="600" x2="836.88" y2="363.12" class="spoke"/>
+  <line id="spoke-3" x1="600" y1="600" x2="935" y2="600" class="spoke"/>
+  <line id="spoke-4" x1="600" y1="600" x2="836.88" y2="836.88" class="spoke"/>
+  <line id="spoke-5" x1="600" y1="600" x2="600" y2="935" class="spoke"/>
+  <line id="spoke-6" x1="600" y1="600" x2="363.12" y2="836.88" class="spoke"/>
+  <line id="spoke-7" x1="600" y1="600" x2="265" y2="600" class="spoke"/>
+  <line id="spoke-8" x1="600" y1="600" x2="363.12" y2="363.12" class="spoke"/>
+  <g id="circuit-1"><circle cx="600" cy="265" r="38" class="node"/><text x="600" y="275" text-anchor="middle" class="label">1</text></g>
+  <g id="circuit-2"><circle cx="836.88" cy="363.12" r="38" class="node"/><text x="836.88" y="373.12" text-anchor="middle" class="label">2</text></g>
+  <g id="circuit-3"><circle cx="935" cy="600" r="38" class="node"/><text x="935" y="610" text-anchor="middle" class="label">3</text></g>
+  <g id="circuit-4"><circle cx="836.88" cy="836.88" r="38" class="node"/><text x="836.88" y="846.88" text-anchor="middle" class="label">4</text></g>
+  <g id="circuit-5"><circle cx="600" cy="935" r="38" class="node"/><text x="600" y="945" text-anchor="middle" class="label">5</text></g>
+  <g id="circuit-6"><circle cx="363.12" cy="836.88" r="38" class="node"/><text x="363.12" y="846.88" text-anchor="middle" class="label">6</text></g>
+  <g id="circuit-7"><circle cx="265" cy="600" r="38" class="node"/><text x="265" y="610" text-anchor="middle" class="label">7</text></g>
+  <g id="circuit-8"><circle cx="363.12" cy="363.12" r="38" class="node"/><text x="363.12" y="373.12" text-anchor="middle" class="label">8</text></g>
+  <circle id="command-center" cx="600" cy="600" r="50" class="center"/>
+  <text x="600" y="612" text-anchor="middle" class="label">O</text>
+  <line x1="600" y1="120" x2="600" y2="170" stroke="currentColor" stroke-width="8" stroke-linecap="round"/>
+  <path d="M580 145 L600 110 L620 145" fill="none" stroke="currentColor" stroke-width="8" stroke-linejoin="round"/>
+  <text x="600" y="92" text-anchor="middle" class="north">N</text>
+</g>
+</svg>
