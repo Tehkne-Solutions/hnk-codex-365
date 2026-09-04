@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "status": "kether_reference_freeze_in_progress",
+  "scope": "Chapter 1 — Kether / Days 001–036",
+  "approval_date": "2026-09-04",
+  "references": [
+    {
+      "id": "hnk.gneo_geo.v1",
+      "status": "canonical_reference_approved",
+      "document": "canon/references/approved/GNEO_GEO_V1.md",
+      "asset_id": "hnk.gneo_geo.v1.master",
+      "asset_path": "canon/references/assets/gneo-geo-v1.svg",
+      "sha256": "2547d18241651980ed1668408b189ecfd1eb28acb400cdf6c1d96e7514d90436",
+      "provenance": "HNK-original geometry derived from source-backed Gneo Geo functional ontology."
+    },
+    {
+      "id": "hnk.kether.sigil.v1",
+      "status": "canonical_reference_approved",
+      "document": "canon/references/approved/KETHER_SIGIL_V1.md",
+      "asset_id": "hnk.kether.sigil.v1.master",
+      "asset_path": "canon/references/assets/kether-sigil-v1.svg",
+      "sha256": "7792ad999497f502d29c4377d3497c02241421701e5762ed247c5351fb24320a",
+      "provenance": "HNK-original Kether geometry derived from HNK 3/12/36 structural system."
+    },
+    {
+      "id": "hnk.tuner.kether.v1",
+      "status": "canonical_reference_approved",
+      "document": "canon/references/approved/SINTONIZADOR_ANGELICAL_KETHER_V1.md",
+      "asset_id": null,
+      "sha256": null,
+      "provenance": "HNK-original deterministic ritual-audio/context controller; not an entity detector."
+    },
+    {
+      "id": "hnk.audio.kether_chokmah.transition.v1",
+      "status": "canonical_recipe_approved_master_rendered_listening_qa_pending_not_published",
+      "document": "canon/references/approved/KETHER_CHOKMAH_TRANSITION_AUDIO_V1.md",
+      "recipe_path": "scripts/audio/render_kether_chokmah_transition_v1.py",
+      "master_filename": "kether-chokmah-transition-v1-proposal.wav",
+      "master_sha256": "5289f4b32bb1c1094b16471e262c8abb1886d7d77e595efc2605869a316a8168",
+      "published_storage": null,
+      "provenance": "HNK-original technical reconciliation of source-backed 432 Hz base, 528 Hz ritual references and Theta target label."
+    },
+    {
+      "id": "reiki-usui-dai-ko-myo-v1",
+      "status": "canonical_reference_approved",
+      "document": "canon/references/approved/DAI_KOO_MYO_USUI_HNK_V1.md",
+      "asset_id": "oracle-dai-ko-myo-usui-hnk-master-v1",
+      "asset_path": "canon/references/assets/dai-koo-myo-usui-hnk-master-v1.svg",
+      "sha256": "25d7853168b209665a66c01a83b3ebd4681b620e1ae2a98e65d74fbab6f7b4d0",
+      "stroke_order_asset_path": "canon/references/assets/dai-koo-myo-usui-hnk-stroke-order-v1.svg",
+      "stroke_order_sha256": "52cf6921ccd6ede63a6f83d05b31faf787d2881b99d5b8ce1ee6095a86b4fe6b",
+      "semantic_master": "大光明",
+      "provenance": "HNK rendering of traditional Usui Dai Ko Myo kanji reference; not a recovered historical HNK drawing."
+    }
+  ],
+  "open_publication_gates": [
+    "human listening QA for Kether→Chokmah transition audio",
+    "final audio storage/publication location",
+    "codex-hnk-app Asset Registry synchronization",
+    "Supabase/app resync against final Kether freeze commit"
+  ]
+}
