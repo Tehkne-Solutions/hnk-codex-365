@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "status": "kether_reference_freeze_in_progress",
+  "status": "kether_freeze_candidate_listening_qa_pending",
   "scope": "Chapter 1 — Kether / Days 001–036",
   "approval_date": "2026-09-04",
   "references": [
@@ -58,11 +58,11 @@
   ],
   "completed_integrations": [
     "codex-hnk-app canonical reference sync merged at b0699382298ccc61bb6a48c2364b44fc69ddbd25",
-    "Supabase asset_registry A–E sync verified on project codex-hnk-app (czgqjrxkveatlnyjiwds)"
+    "Supabase asset_registry A–E sync verified on project codex-hnk-app (czgqjrxkveatlnyjiwds)",
+    "Supabase Kether content resync 001–036 completed successfully against canonical source commit 2823aa55e6ddaaa2e9550a3268eff25b81e1bfa8"
   ],
   "open_publication_gates": [
     "human listening QA for Kether→Chokmah transition audio",
-    "final audio storage/publication location",
-    "Supabase/app resync against final Kether freeze commit"
+    "final audio storage/publication location"
   ]
 }
