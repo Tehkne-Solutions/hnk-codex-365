@@ -47,16 +47,22 @@
       "asset_id": "oracle-dai-ko-myo-usui-hnk-master-v1",
       "asset_path": "canon/references/assets/dai-koo-myo-usui-hnk-master-v1.svg",
       "sha256": "25d7853168b209665a66c01a83b3ebd4681b620e1ae2a98e65d74fbab6f7b4d0",
+      "raster_derivative_path": "canon/references/assets/dai-koo-myo-usui-hnk-master-v1.png",
+      "raster_derivative_sha256": "03601af7eaa157f36b1e26221618cfde0940fa6f1645f1419d0dc82d76f0288d",
+      "raster_derivative_dimensions": "1200x1720",
       "stroke_order_asset_path": "canon/references/assets/dai-koo-myo-usui-hnk-stroke-order-v1.svg",
       "stroke_order_sha256": "52cf6921ccd6ede63a6f83d05b31faf787d2881b99d5b8ce1ee6095a86b4fe6b",
       "semantic_master": "大光明",
       "provenance": "HNK rendering of traditional Usui Dai Ko Myo kanji reference; not a recovered historical HNK drawing."
     }
   ],
+  "completed_integrations": [
+    "codex-hnk-app canonical reference sync merged at b0699382298ccc61bb6a48c2364b44fc69ddbd25",
+    "Supabase asset_registry A–E sync verified on project codex-hnk-app (czgqjrxkveatlnyjiwds)"
+  ],
   "open_publication_gates": [
     "human listening QA for Kether→Chokmah transition audio",
     "final audio storage/publication location",
-    "codex-hnk-app Asset Registry synchronization",
     "Supabase/app resync against final Kether freeze commit"
   ]
 }

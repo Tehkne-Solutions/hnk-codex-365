@@ -37,6 +37,22 @@ The master is an HNK editorial rendering of the traditional Usui kanji reference
 
 The SVG contains vector outlines, not runtime font text. The build outline source was `Noto Serif CJK JP` from the Noto CJK family, distributed in the project build environment under SIL Open Font License 1.1. No font file is embedded or distributed by the Codex asset.
 
+### 2.1 Raster delivery derivative
+
+Transparent PNG derivative:
+
+`canon/references/assets/dai-koo-myo-usui-hnk-master-v1.png`
+
+Dimensions:
+
+`1200 × 1720 px`
+
+SHA-256:
+
+`03601af7eaa157f36b1e26221618cfde0940fa6f1645f1419d0dc82d76f0288d`
+
+The PNG is a deterministic rasterization of the approved SVG master. It does not define an independent geometry and must never supersede the SVG as the vector source of truth.
+
 ## 3. Stroke-order reference
 
 Study sheet path:
